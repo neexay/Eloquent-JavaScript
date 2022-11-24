@@ -1,0 +1,28 @@
+.body_wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  & > .title{
+
+  }
+  & > .buttons_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & > .button_for_result_task{
+      font-size: 24px;
+      background: aqua;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid red;
+      margin: 10px 0;
+      &:hover{
+        cursor: pointer;
+        background: black;
+        color: white;
+      }
+    }
+  }
+}
